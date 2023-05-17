@@ -30,12 +30,12 @@ const Navbar = () => {
         </nav>
         {/* ::Avatar */}
        <div className="space-x-3">
-       <button type="button" className="  px-4 py-2 border border-transparent bg-blue-600 text-sm text-white font-medium rounded-lg">
+     <Link to='/login'>  <button type="button" className="  px-4 py-2 border border-transparent bg-blue-600 text-sm text-white font-medium rounded-lg">
        Register
-      </button>
-        <button type="button" className="  px-4 py-2 border border-transparent bg-gray-600 text-sm text-white font-medium rounded-lg">
+      </button></Link>
+        <Link to='/admin/list'><button type="button" className="  px-4 py-2 border border-transparent bg-gray-600 text-sm text-white font-medium rounded-lg">
         Admin
-      </button>
+      </button></Link>
        </div>
         {/* ::Burger icon standard */}
         <button 
